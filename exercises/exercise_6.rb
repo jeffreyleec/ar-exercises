@@ -10,13 +10,15 @@ puts "----------"
 
 # Your code goes here ...
 
-# @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
 
-# @store1.employees.create(first_name: "Lijing", last_name: "Wang", hourly_rate: 70)
+@store1.employees.create(first_name: "Jeff", last_name: "Lee", hourly_rate: 70)
 
-# @store1.employees.create(first_name: "Cheng", last_name: "Shi", hourly_rate: 80)
+@store1.employees.create(first_name: "Jenn", last_name: "Ai", hourly_rate: 80)
 
-# @store2.employees.create(first_name: "Hong", last_name: "Li", hourly_rate: 80)
+@store2.employees.create(first_name: "Pandora", last_name: "Lee", hourly_rate: 80)
+
+@store2.employees.create(first_name: "Elizabeth", last_name: "Law", hourly_rate: 90)
 
 
 # We haven't used the Employee class (and employees table) at all yet. 
